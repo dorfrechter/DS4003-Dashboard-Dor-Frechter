@@ -9,7 +9,7 @@ import seaborn as sns
 import plotly.express as px
 
 #load data
-messi_goals_df = pd.read_csv('/Users/dor.frechter/Desktop/DS4003/Final Project/data/data1.csv')
+messi_goals_df = pd.read_csv('data1.csv')
 messi_goals_df.drop('Playing_Position', axis=1, inplace=True)
 messi_goals_df.drop('Matchday', axis=1, inplace=True)
 messi_goals_df.drop('Date', axis=1, inplace=True)
