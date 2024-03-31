@@ -27,7 +27,14 @@ messi_goals_df.head()
 app = Dash(__name__)
 server = app.server  # Expose the server variable for Heroku
 
-app.layout = html.Div([])
+app.layout = html.Div([
+    
+
+
+
+
+
+])
 
 
 if __name__ == '__main__': #run the app
